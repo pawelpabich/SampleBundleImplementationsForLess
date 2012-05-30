@@ -1,0 +1,17 @@
+﻿@import "C:\Code\SampleTransforms\SampleTransforms\Content\Variables.less";
+@import "C:\Code\SampleTransforms\SampleTransforms\Content\Mixins.less";
+
+body {
+    color: @color;
+	.rounded-corners(3px);
+}
+
+
+@import "Variables.less";
+@import "Mixins.less";
+
+body {
+    color: @color;
+	.rounded-corners(3px);
+}
+
